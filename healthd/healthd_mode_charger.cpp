@@ -186,7 +186,7 @@ static int64_t curr_time_ms(void)
 static void clear_screen(void)
 {
     gr_color(0, 0, 0, 255);
-    gr_clear();
+    //gr_clear(); //a terrible idea to comment out but there is no reference google gr_clear() to look at
 }
 
 #define MAX_KLOG_WRITE_BUF_SZ 256
