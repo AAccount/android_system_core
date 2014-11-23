@@ -652,17 +652,6 @@ void SortedVectorImpl::reservedSortedVectorImpl7() { };
 void SortedVectorImpl::reservedSortedVectorImpl8() { };
 #endif
 
-#if NEEDS_VECTORIMPL_SYMBOLS
-void SortedVectorImpl::reservedSortedVectorImpl1() { };
-void SortedVectorImpl::reservedSortedVectorImpl2() { };
-void SortedVectorImpl::reservedSortedVectorImpl3() { };
-void SortedVectorImpl::reservedSortedVectorImpl4() { };
-void SortedVectorImpl::reservedSortedVectorImpl5() { };
-void SortedVectorImpl::reservedSortedVectorImpl6() { };
-void SortedVectorImpl::reservedSortedVectorImpl7() { };
-void SortedVectorImpl::reservedSortedVectorImpl8() { };
-#endif
-
 /*****************************************************************************/
 
 }; // namespace android
