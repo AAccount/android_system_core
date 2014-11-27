@@ -150,15 +150,13 @@ typedef enum {
 #endif
     AUDIO_SOURCE_CNT,
     AUDIO_SOURCE_MAX                 = AUDIO_SOURCE_CNT - 1,
-#ifndef ICS_AUDIO_BLOB
+
     AUDIO_SOURCE_HOTWORD             = 1999, /* A low-priority, preemptible audio source for
                                                 for background software hotword detection.
                                                 Same tuning as AUDIO_SOURCE_VOICE_RECOGNITION.
                                                 Used only internally to the framework. Not exposed
                                                 at the audio HAL. */
-#else
-	AUDIO_SOURCE_HOTWORD             = AUDIO_SOURCE_MIC,
-#endif
+
 } audio_source_t;
 
 /* Audio attributes */
