@@ -165,7 +165,6 @@ typedef enum {
                                                 Same tuning as AUDIO_SOURCE_VOICE_RECOGNITION.
                                                 Used only internally to the framework. Not exposed
                                                 at the audio HAL. */
-
 } audio_source_t;
 
 /* Audio attributes */
@@ -786,13 +785,10 @@ enum {
                                AUDIO_DEVICE_IN_SPDIF |
                                AUDIO_DEVICE_IN_BLUETOOTH_A2DP |
                                AUDIO_DEVICE_IN_LOOPBACK |
-
-
 #ifdef QCOM_HARDWARE
                                AUDIO_DEVICE_IN_FM_RX |
                                AUDIO_DEVICE_IN_FM_RX_A2DP |
                                AUDIO_DEVICE_IN_PROXY |
-#endif
 #endif
                                AUDIO_DEVICE_IN_DEFAULT),
     AUDIO_DEVICE_IN_ALL_SCO = AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET,
